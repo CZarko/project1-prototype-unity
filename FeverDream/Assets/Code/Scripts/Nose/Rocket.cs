@@ -15,11 +15,11 @@ public class Rocket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        transform.Rotate(new Vector3(0, -1 * rotateSpeed * Time.deltaTime * Input.GetAxisRaw("Horizontal"), 0));
+        transform.Rotate(new Vector3(0, 0, rotateSpeed * Time.deltaTime * Input.GetAxisRaw("Horizontal")));
         //GetComponent<Rigidbody>().AddForce
         //transform.Translate(new Vector3(-1 * Mathf.Sin(Mathf.Deg2Rad * transform.eulerAngles.z),Mathf.Cos(Mathf.Deg2Rad * transform.eulerAngles.z), 0) * Time.deltaTime);
         //print(Mathf.Cos(transform.eulerAngles.z * Mathf.PI / 180));
-        transform.Translate(Vector3.forward * Time.deltaTime * rocketSpeed);
+        transform.Translate(Vector3.up * Time.deltaTime * rocketSpeed);
     }
 
     private void OnCollisionEnter(Collision collision)
