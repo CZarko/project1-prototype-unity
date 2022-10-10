@@ -24,6 +24,7 @@ public class Rocket : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if(!(collision.gameObject.tag == "Nose"))
         Destroy(gameObject);
     }
 }
