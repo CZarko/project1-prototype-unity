@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Level/Scenes/Main.unity
+    guid: 40de6f450a56d9f4ca18e90a01a283d5
+  - enabled: 1
+    path: Assets/Level/Scenes/Asteroid.unity
+    guid: a87e2b4cba652164ca52583e57205baf
+  - enabled: 1
+    path: Assets/Level/Scenes/DigitalEating.unity
+    guid: aa761edc86d45bf4599f9f386a6dcd08
+  - enabled: 1
+    path: Assets/Level/Scenes/Nose.unity
+    guid: 676cac2d7f6723442af1fdcd4adb1b27
+  - enabled: 1
+    path: Assets/Level/Scenes/PixlelPlatformer.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Level/Scenes/TextSlime.unity
+    guid: 335bc0a47a3bd2e459abb07391931bcd
+  - enabled: 1
+    path: Assets/Level/Scenes/DungeonCross.unity
+    guid: 13f78f73cb116aa48a4af902356f0fdb
   m_configObjects: {}

@@ -38,7 +38,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1600, y: 600}
+  m_SizeDelta: {x: 1600, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4326321498370645497
 CanvasRenderer:
@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 4326321499680679509}
   - component: {fileID: 4326321499680679506}
   - component: {fileID: 4326321499680679507}
+  - component: {fileID: 7315334285042965053}
   m_Layer: 5
   m_Name: canvas_eyelid
   m_TagString: Untagged
@@ -289,3 +290,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7315334285042965053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4326321499680679504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c5e359ec1a164291eab275c835b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
